@@ -507,6 +507,7 @@ $tcount+= $ticket->getNumNotes();
                         break;
                     } ?>
                     <input type="hidden" name="draft_id" value=""/>
+                    <br>
                     <textarea name="response" id="response" cols="50"
                         data-draft-namespace="ticket.response"
                         data-signature-field="signature" data-dept-id="<?php echo $dept->getId(); ?>"
